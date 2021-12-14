@@ -19,6 +19,13 @@
     font-size: 20px;
 
 }
+.btnConfirm {
+    margin: 30px;
+}
+.btnCancel {
+    margin: 30px;
+
+}
 .btn{
     margin-bottom: 50px;
     text-align: center;
