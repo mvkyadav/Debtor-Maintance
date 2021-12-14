@@ -1,0 +1,38 @@
+.body{
+    text-align: center;
+    border: 6px solid #005282;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.header{
+    font-size:40px;
+    color:#000000;
+    font-weight:bold;
+    text-align: center;
+    background-color:aliceblue;
+    border-right-color: initial;
+}
+.main{
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+.btn{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btnConfirm:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.btnCancel:hover {
+    background-color: red;
+    color: white;
+}
+.btnBack:hover {
+    background-color: grey;
+    color: white;
+}
+
