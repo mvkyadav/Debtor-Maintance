@@ -2,21 +2,33 @@
 <html>
   <head>
     <title>Project</title>
+    <link rel="stylesheet"href="C:\Users\Vamshi\Downloads\body.css">
   </head>
   <body>
-    <h1>Table 3</h1>
-    <label>Transcation Reference</label><br />
-    <input type="text" name="TranscationNo" /><br /><br />
+      <header>
+          <div class="header">Review and Confirm</div><br>
+      </header>
+      <div class="body">
+          <div class="main">
+              <label>Transcation Reference</label><br>
+              <input type="text" name="TranscationNo" /><br /><br />
 
-    <label>Date and Time</label><br />
-    <input type="datetime" name="dateandtime" /><br /><br />
+              <label>Date and Time</label><br />
+              <input type="datetime-local" name="dateandtime" /><br /><br />
 
-    <label>Status</label><br />
-    <input type="text" name="Status" value="P/R/A" />
-    <br /><br />
+              <label>Status</label><br/>
+              <input type="text" name="Status" value="P/R/A" />
+              <br /><br />
 
-    <input type="button" value="Confirm" name="confirm" />
-    <input type="button" value="Back" name="back" />
-    <input type="button" value="Cancel" name="cancel" />
+              <label>Transaction Information</label><br>
+              <input type="text" name="TranscationNo" /><br /><br />
+                <div class="btn">
+                    <input class="btnConfirm" type="button" value="Confirm" name="confirm" />
+                    <input class="btnBack" type="button" value="Back" name="back" />
+                    <input class="btnCancel"type="button" value="Cancel" name="cancel" />
+                    <br>
+                </div>
+          </div>
+      </div>
   </body>
 </html>
